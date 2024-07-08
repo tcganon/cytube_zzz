@@ -147,9 +147,9 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 Favicon_URL = 'https://files.catbox.moe/7f4v2n.png';
 
-MiniLogo_URL = 'https://files.catbox.moe/0cd1on.png';
+MiniLogo_URL = 'https://files.catbox.moe/x4o3e2.png';
 
-ChannelName_Caption = 'Narzissenkreuz Ordo';
+ChannelName_Caption = 'INTER-KNOT';
 
 HeaderDropMenu_Title = 'Genshin';
 
