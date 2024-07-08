@@ -1,0 +1,151 @@
+.navbar-brand>img {
+    display: inline !important;
+    width: 32px;
+}
+
+.navbar {
+    text-shadow: 1px 1px #808080 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    text-shadow: 1px 1px #808080 !important;
+    color: #ffedb6;
+}
+
+.navbar-inverse .navbar-brand {
+    text-shadow: 1px 1px #808080 !important;
+    color: #ffedb6;
+}
+
+#welcome {
+    text-shadow: 1px 1px #808080 !important;
+    color: #e1b5d9;
+}
+
+#logout {
+    text-shadow: 1px 1px #808080 !important;
+    color: #56b3f2;
+}
+
+body {
+    background-attachment: fixed;
+    background-position: center;
+    height: max-content;
+    background-size: cover;
+    cursor: url(https://files.catbox.moe/ugaown.cur), auto !important;
+    transition: background-image 0.5s ease-in-out;
+}
+
+#ytapiplayer {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.container {
+    width: 80vw !important;
+}
+
+#messagebuffer {
+    color: #fff;
+}
+
+#queue>li {
+    cursor: url(https://files.catbox.moe/ah5kbi.cur), auto !important;
+}
+
+#nav,
+#navbar-nav {
+    color: #000;
+}
+
+/* #main { background: url("https://files.catbox.moe/q4svsf.png")} */
+.nick-hover {
+    background-color: #ffffff2e !important;
+}
+
+@font-face {
+    font-family: 'genshin';
+    src: url('https://files.catbox.moe/5psift.woff2') format('woff2'), url('https://files.catbox.moe/2oxgwv.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: genshin;
+}
+
+.timestamp {
+    font-family: system-ui;
+}
+
+#main {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#chatwrap {
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+#emotespanel {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* #chatwrap {
+    background: url("https://files.catbox.moe/jjt8qg.png");
+    background-position: center center;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+#rightpane {
+    background-color: rgba(18, 24, 91, 0.3);
+}
+
+#queue {
+    opacity: 0.7;
+}
+
+/* .navbar-brand { background: url("https://files.catbox.moe/itceup.png")} */
+/* .navbar-nav { background: url("https://files.catbox.moe/sjzube.png") } */
+.navbar-brand {
+    background-color: #56b3f2;
+}
+
+.navbar-nav {
+    background-color: #e1b5d9
+}
+
+.navbar-collapse {
+    background-color: #f2d4c3
+}
+
+.navbar-text {
+    background-color: #f2d4c3
+}
+
+#playlistrow {
+    width: auto;
+}
+
+#footer {
+    background-color: #12185b !important;
+    ;
+}
+
+.btn {
+    color: #ffedb6;
+}
+
+.btn-default {
+    background: #f1b8b8;
+}
+
+.well {
+    background-color: #544f73;
+    opacity: 0.8;
+}
+
+#emotespanel {
+    max-width: 1600px !important;
+}
