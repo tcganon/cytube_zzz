@@ -3559,8 +3559,7 @@ $("#chatline, #chatbtn").unbind();
 					parent.append(`<div id="emoteListSelect"></div>`);
 					selList = $('#emoteListSelect');
 					selList.css("position", "absolute");
-					selList.css("left", chat.position().left);
-					selList.css("top", chat.position().top + parseInt(chat.css("height")));
+					selList.css("left", chat.position().left);					
 					selList.css("background-color", "#161a20");
 					selList.css("border", "1px solid black");
 					selList.css("z-index", "999");
@@ -3583,6 +3582,13 @@ $("#chatline, #chatbtn").unbind();
 						selList.append(opt);
 					});
 
+					var rect = document.querySelector('#emoteListSelect').getBoundingClientRect();
+					var chatTop = chat.position().top;
+					if (rect.top < 0 || rect.left < 0 || rect.bottom > window.innerHeight || rect.right > window.innerWidth)
+						selList.css("top", chatTop-rect.height);
+					else
+						selList.css("top", chatTop + parseInt(chat.css("height")));
+					
 					$('.list-option').first().toggleClass('selected');
 
 					selList.on('change', function () {
