@@ -3564,9 +3564,13 @@ $("#chatline, #chatbtn").unbind();
 					selList.css("background-color", "#161a20");
 					selList.css("border", "1px solid black");
 					selList.css("z-index", "999");
-
+					selList.css("max-height", "150px");
+                        		selList.css("overflow", "auto");
+                        		selList.css("min-width", "250px");
+                       			selList.css("margin", "0");
+					
 					foundEmotes.forEach(emote => {
-						let opt = $(`<div class="list-option"><img src=${emote.image} heigt="35px" width="35px">${emote.name}</div>`);
+						let opt = $(`<div class="list-option"><img loading="lazy" src=${emote.image} heigt="35px" width="35px">${emote.name}</div>`);
 
 						opt.on('click', function (e) {
 							selectedEmote = CHANNEL.emotes.find(emote => emote.name == $(e.target).text());
@@ -3650,7 +3654,7 @@ $("#chatline, #chatbtn").unbind();
 		}
 
 		if (tt < pt) { // scrolling top
-			parent.scrollTop(parent.scrollTop() - pt + tt - tH);
+			parent.scrollTop(parent.scrollTop() - pt + tt);
 		}
 	}
 })();
