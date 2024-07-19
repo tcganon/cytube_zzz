@@ -74,7 +74,7 @@ UI_DefaultSynchtube = 1;	// default old Synchtube layout (player and playlist on
 UI_Favicon = 1;			// [&] channel favicon
 UI_MiniLogo = 1;		// [&] small channel logo/avatar in the top navbar
 UI_ChannelName = 1;		// [&] channel custom brand name
-UI_HeaderDropMenu = 1;		// [&] additional header dropdown menu
+UI_HeaderDropMenu = 0;		// [&] additional header dropdown menu
 UI_RemoveLayoutMenu = 1;	// removing 'Layout' menu from the header
 UI_MOTDAutoLogo = 0;		// [&] big channel logo inserted into MOTD
 UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like channel header
@@ -145,7 +145,7 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 /* -- single variables -- */
 
-Favicon_URL = 'https://files.catbox.moe/7f4v2n.png';
+Favicon_URL = 'https://files.catbox.moe/ofxkee.png';
 
 MiniLogo_URL = 'https://files.catbox.moe/x4o3e2.png';
 
@@ -270,7 +270,7 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = 'Website powered by Jewish loli expertise. ';
+CustomFooter_HTML = ' ';
 
 CustomRightFooter_HTML = 'Many thanks to doomkek for debugging this fossilized codebase.';
 
