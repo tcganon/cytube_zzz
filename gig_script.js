@@ -3763,7 +3763,7 @@ danmakuConfig = {
 (function () {
 	let dc = danmakuConfig
 	let vw = $('#videowrap');
-	vw.prepend($(`<canvas id="kinooo" style="position: absolute; pointer-events: none; z-index: 999"></canvas>`));
+	vw.prepend($(`<canvas id="kinooo" style="position: absolute; pointer-events: none; z-index: 999; padding-top: 47px;"></canvas>`));
 
 	let canvas = document.getElementById('kinooo');
 	let ctx = canvas.getContext('2d');
