@@ -270,9 +270,9 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = 'Activity in this Inter-Knot channel is monitored by the Bangboo Merchant Society.';
+CustomFooter_HTML = 'Activity in this Inter-Knot channel is monitored by the Bangboo Merchant Society. ';
 
-CustomRightFooter_HTML = 'KOTTED? GOOD.';
+CustomRightFooter_HTML = 'KOTTED? GOOD. TKD (TOTAL KOT DEATH) TO ALL NYAGGERS INSHALLAH. ';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
