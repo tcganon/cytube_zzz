@@ -147,7 +147,7 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 Favicon_URL = 'https://files.catbox.moe/ofxkee.png';
 
-MiniLogo_URL = 'https://files.catbox.moe/x4o3e2.png';
+MiniLogo_URL = 'https://files.catbox.moe/7g493w.png';
 
 ChannelName_Caption = 'INTER-KNOT';
 
@@ -270,9 +270,9 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = 'Activity in this Inter-Knot channel is monitored by the Bangboo Merchant Society. ';
+CustomFooter_HTML = 'Activity is monitored by the Bangboo Merchant Society. ';
 
-CustomRightFooter_HTML = 'KOTTED? GOOD. TKD (TOTAL KOT DEATH) TO ALL NYAGGERS INSHALLAH. ';
+CustomRightFooter_HTML = 'KOTTED? GOOD. TKD (TOTAL KOT DEATH) TO ALL NYAGGERS INSHALLAH ';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
