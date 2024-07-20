@@ -270,7 +270,7 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = 'Activity in this Inter-Knot channel is monitored by the Bangboo Merchant Society. Anti-Bangboo prejudice will be punished severely.';
+CustomFooter_HTML = 'Activity in this Inter-Knot channel is monitored by the Bangboo Merchant Society.';
 
 CustomRightFooter_HTML = 'KOTTED? GOOD.';
 
