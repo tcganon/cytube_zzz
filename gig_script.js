@@ -90,7 +90,7 @@ UI_TitleIcon = 0;		// [&] full-width title bar icon
 UI_TitleBarDescription = 1;	// [&] custom title bar description (default "Currently Playing:")
 UI_JoinText = 1;		// [&] chat message after user joining
 UI_LeaveText = 1;		// [&] chat message after user leaving
-UI_UserCommands = 1;		// [&] additional commands in the chat window
+UI_UserCommands = 0;		// [&] additional commands in the chat window
 UI_UserMarks = 0;		// [&] special signs/avatars before every message for defined users
 UI_Squavatars = 0;		// automatic squavatars (2-colored square avatars) before every message
 // [ REQUIRE: UI_UserMarks enabled ]
@@ -270,9 +270,9 @@ EmbeddingMedia_Images = 'a[href$=".jpg"], a[href$=".jpg:large"], a[href$=".jpeg"
 
 EmbeddingMedia_Videos = 'a[href$=".webm"]';
 
-CustomFooter_HTML = ' ';
+CustomFooter_HTML = 'Activity in this Inter-Knot channel is monitored by the Bangboo Merchant Society. Anti-Bangboo prejudice will be punished severely.';
 
-CustomRightFooter_HTML = 'Many thanks to doomkek for debugging this fossilized codebase.';
+CustomRightFooter_HTML = 'KOTTED? GOOD.';
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
