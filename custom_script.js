@@ -108,7 +108,7 @@ fetch('https://raw.githubusercontent.com/doomkek/cytube_gig/main/gig_script.js')
 
 
 
-var featuresList = $('<div class="well form-horizontal" id="features"><ul style="list-style-type:none; color: #ffedb6;"><li><b>Wallpapers: </b>Use the <b>"Change Wallpaper"</b> button to swap between random wallpapers without reloading.</li><br/><br/><li><b>Emote Search: </b>In chat, use the <b>":"</b> shortcode to search emotes by name, then select a preview emote to add it to your message with left click or the enter key <b>ex. :klee</b></li><br/><br/><li><b>Commands: </b>Let fate select your next emote with <b>!cheld</b>, or consult <b>!ladyning</b> for advice on your next pulls.</li><br/><br/><li><b>Danmaku: </b>Use the "Danmaku" button to toggle niconico/bilibili style comment overlay on or off.</li></ul></div>');
+var featuresList = $('<div class="well form-horizontal" id="features"><ul style="list-style-type:none; color: #ffedb6;"><li><b>Wallpapers: </b>Use the <b>"Change Wallpaper"</b> button to swap between random wallpapers without reloading.</li><br/><br/><li><b>Emote Search: </b>In chat, use the <b>":"</b> shortcode to search emotes by name, then select a preview emote to add it to your message with left click or the enter key <b>ex. :ellen</b></li><br/><br/><b>Danmaku: </b>Use the "Danmaku" button to toggle niconico/bilibili style comment overlay on or off.</li></ul></div>');
 
 
 const wallpaperButtonInterval = setInterval(() => {
