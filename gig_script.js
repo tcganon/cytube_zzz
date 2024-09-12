@@ -3573,10 +3573,10 @@ $("#chatline, #chatbtn").unbind();
 
 					var rect = document.querySelector('#emoteListSelect').getBoundingClientRect();
 					var chatTop = chat.position().top;
-					if (rect.top < 0 || rect.left < 0 || rect.bottom > window.innerHeight || rect.right > window.innerWidth)
+					//if (rect.top < 0 || rect.left < 0 || rect.bottom > window.innerHeight || rect.right > window.innerWidth)
 						selList.css("top", chatTop-rect.height);
-					else
-						selList.css("top", chatTop + parseInt(chat.css("height")));
+					//else
+						//selList.css("top", chatTop + parseInt(chat.css("height")));
 					
 					$('.list-option').first().toggleClass('selected');
 
